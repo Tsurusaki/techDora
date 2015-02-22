@@ -23,6 +23,17 @@
 		AF84F13616F33C75001F39BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF84F11116F33C74001F39BD /* Foundation.framework */; };
 		AF84F13E16F33C75001F39BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF84F13C16F33C75001F39BD /* InfoPlist.strings */; };
 		AF84F14116F33C75001F39BD /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F14016F33C75001F39BD /* _____Tests.m */; };
+		AF84F14C16F33CB5001F39BD /* ExplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F14B16F33CB5001F39BD /* ExplainViewController.m */; };
+		AF84F15D16F33CCA001F39BD /* DamageValueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F15116F33CCA001F39BD /* DamageValueLabel.m */; };
+		AF84F15E16F33CCA001F39BD /* DQView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F15416F33CCA001F39BD /* DQView.m */; };
+		AF84F15F16F33CCA001F39BD /* UIImage+fill.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F15716F33CCA001F39BD /* UIImage+fill.m */; };
+		AF84F16016F33CCA001F39BD /* UIImageView+effects.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F15916F33CCA001F39BD /* UIImageView+effects.m */; };
+		AF84F16116F33CCA001F39BD /* UIView+shake.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84F15C16F33CCA001F39BD /* UIView+shake.m */; };
+		AF84F16616F33CE2001F39BD /* button_sozai.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84F16316F33CE2001F39BD /* button_sozai.png */; };
+		AF84F16716F33CE2001F39BD /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84F16416F33CE2001F39BD /* dragon.png */; };
+		AF84F16816F33CE2001F39BD /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84F16516F33CE2001F39BD /* haikei.png */; };
+		AF84F16A16F33D2B001F39BD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84F16916F33D2B001F39BD /* icon.png */; };
+		AF84F16C16F33D2F001F39BD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84F16B16F33D2F001F39BD /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,23 @@
 		AF84F13D16F33C75001F39BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF84F13F16F33C75001F39BD /* _____Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____Tests.h"; sourceTree = "<group>"; };
 		AF84F14016F33C75001F39BD /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		AF84F14A16F33CB5001F39BD /* ExplainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplainViewController.h; sourceTree = "<group>"; };
+		AF84F14B16F33CB5001F39BD /* ExplainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplainViewController.m; sourceTree = "<group>"; };
+		AF84F15016F33CCA001F39BD /* DamageValueLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamageValueLabel.h; sourceTree = "<group>"; };
+		AF84F15116F33CCA001F39BD /* DamageValueLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamageValueLabel.m; sourceTree = "<group>"; };
+		AF84F15316F33CCA001F39BD /* DQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQView.h; sourceTree = "<group>"; };
+		AF84F15416F33CCA001F39BD /* DQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQView.m; sourceTree = "<group>"; };
+		AF84F15616F33CCA001F39BD /* UIImage+fill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fill.h"; sourceTree = "<group>"; };
+		AF84F15716F33CCA001F39BD /* UIImage+fill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fill.m"; sourceTree = "<group>"; };
+		AF84F15816F33CCA001F39BD /* UIImageView+effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+effects.h"; sourceTree = "<group>"; };
+		AF84F15916F33CCA001F39BD /* UIImageView+effects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+effects.m"; sourceTree = "<group>"; };
+		AF84F15B16F33CCA001F39BD /* UIView+shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+shake.h"; sourceTree = "<group>"; };
+		AF84F15C16F33CCA001F39BD /* UIView+shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shake.m"; sourceTree = "<group>"; };
+		AF84F16316F33CE2001F39BD /* button_sozai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_sozai.png; sourceTree = "<group>"; };
+		AF84F16416F33CE2001F39BD /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		AF84F16516F33CE2001F39BD /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
+		AF84F16916F33D2B001F39BD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		AF84F16B16F33D2F001F39BD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +150,9 @@
 				AF84F12716F33C74001F39BD /* MainStoryboard.storyboard */,
 				AF84F12A16F33C74001F39BD /* ViewController.h */,
 				AF84F12B16F33C74001F39BD /* ViewController.m */,
+				AF84F14A16F33CB5001F39BD /* ExplainViewController.h */,
+				AF84F14B16F33CB5001F39BD /* ExplainViewController.m */,
+				AF84F16216F33CE2001F39BD /* images */,
 				AF84F11616F33C74001F39BD /* Supporting Files */,
 			);
 			path = "テクドラ";
@@ -130,6 +161,7 @@
 		AF84F11616F33C74001F39BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF84F14D16F33CCA001F39BD /* UIKitForGame */,
 				AF84F11716F33C74001F39BD /* テクドラ-Info.plist */,
 				AF84F11816F33C74001F39BD /* InfoPlist.strings */,
 				AF84F11B16F33C74001F39BD /* main.m */,
@@ -158,6 +190,75 @@
 				AF84F13C16F33C75001F39BD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF84F14D16F33CCA001F39BD /* UIKitForGame */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F14E16F33CCA001F39BD /* CustomFontLabel */,
+				AF84F14F16F33CCA001F39BD /* DamageValueLabel */,
+				AF84F15216F33CCA001F39BD /* DQView */,
+				AF84F15516F33CCA001F39BD /* UIImageView+effects */,
+				AF84F15A16F33CCA001F39BD /* UIView+shake */,
+			);
+			path = UIKitForGame;
+			sourceTree = "<group>";
+		};
+		AF84F14E16F33CCA001F39BD /* CustomFontLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomFontLabel;
+			sourceTree = "<group>";
+		};
+		AF84F14F16F33CCA001F39BD /* DamageValueLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F15016F33CCA001F39BD /* DamageValueLabel.h */,
+				AF84F15116F33CCA001F39BD /* DamageValueLabel.m */,
+			);
+			path = DamageValueLabel;
+			sourceTree = "<group>";
+		};
+		AF84F15216F33CCA001F39BD /* DQView */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F15316F33CCA001F39BD /* DQView.h */,
+				AF84F15416F33CCA001F39BD /* DQView.m */,
+			);
+			path = DQView;
+			sourceTree = "<group>";
+		};
+		AF84F15516F33CCA001F39BD /* UIImageView+effects */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F15616F33CCA001F39BD /* UIImage+fill.h */,
+				AF84F15716F33CCA001F39BD /* UIImage+fill.m */,
+				AF84F15816F33CCA001F39BD /* UIImageView+effects.h */,
+				AF84F15916F33CCA001F39BD /* UIImageView+effects.m */,
+			);
+			path = "UIImageView+effects";
+			sourceTree = "<group>";
+		};
+		AF84F15A16F33CCA001F39BD /* UIView+shake */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F15B16F33CCA001F39BD /* UIView+shake.h */,
+				AF84F15C16F33CCA001F39BD /* UIView+shake.m */,
+			);
+			path = "UIView+shake";
+			sourceTree = "<group>";
+		};
+		AF84F16216F33CE2001F39BD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AF84F16916F33D2B001F39BD /* icon.png */,
+				AF84F16B16F33D2F001F39BD /* icon@2x.png */,
+				AF84F16316F33CE2001F39BD /* button_sozai.png */,
+				AF84F16416F33CE2001F39BD /* dragon.png */,
+				AF84F16516F33CE2001F39BD /* haikei.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +298,7 @@
 			name = "テクドラTests";
 			productName = "テクドラTests";
 			productReference = AF84F13216F33C75001F39BD /* テクドラTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,6 +306,7 @@
 		AF84F10416F33C74001F39BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = com.litech;
 			};
@@ -236,6 +338,11 @@
 				AF84F12416F33C74001F39BD /* Default@2x.png in Resources */,
 				AF84F12616F33C74001F39BD /* Default-568h@2x.png in Resources */,
 				AF84F12916F33C74001F39BD /* MainStoryboard.storyboard in Resources */,
+				AF84F16616F33CE2001F39BD /* button_sozai.png in Resources */,
+				AF84F16716F33CE2001F39BD /* dragon.png in Resources */,
+				AF84F16816F33CE2001F39BD /* haikei.png in Resources */,
+				AF84F16A16F33D2B001F39BD /* icon.png in Resources */,
+				AF84F16C16F33D2F001F39BD /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +380,12 @@
 				AF84F11C16F33C74001F39BD /* main.m in Sources */,
 				AF84F12016F33C74001F39BD /* AppDelegate.m in Sources */,
 				AF84F12C16F33C74001F39BD /* ViewController.m in Sources */,
+				AF84F14C16F33CB5001F39BD /* ExplainViewController.m in Sources */,
+				AF84F15D16F33CCA001F39BD /* DamageValueLabel.m in Sources */,
+				AF84F15E16F33CCA001F39BD /* DQView.m in Sources */,
+				AF84F15F16F33CCA001F39BD /* UIImage+fill.m in Sources */,
+				AF84F16016F33CCA001F39BD /* UIImageView+effects.m in Sources */,
+				AF84F16116F33CCA001F39BD /* UIView+shake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "テクドラ/テクドラ-Prefix.pch";
 				INFOPLIST_FILE = "テクドラ/テクドラ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "テクドラ/テクドラ-Prefix.pch";
 				INFOPLIST_FILE = "テクドラ/テクドラ-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +568,7 @@
 				AF84F14616F33C75001F39BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF84F14716F33C75001F39BD /* Build configuration list for PBXNativeTarget "テクドラTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +577,7 @@
 				AF84F14916F33C75001F39BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
