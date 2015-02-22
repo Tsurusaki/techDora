@@ -110,7 +110,7 @@
     powerlabel.text=[NSString stringWithFormat:@"%d",power];
     self.charaImgView.alpha = 1.0;
 }
-
+//
 
 
 
